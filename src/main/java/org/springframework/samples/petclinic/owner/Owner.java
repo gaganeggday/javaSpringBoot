@@ -37,14 +37,18 @@ import org.springframework.samples.petclinic.model.Person;
 /**
  * Simple JavaBean domain object representing an owner.
  *
- * @author Ken Krebs
- * @author Juergen Hoeller
+ * @author Ken Krebs4 * @author Juergen Hoeller
  * @author Sam Brannen
  * @author Michael Isvy
  */
 @Entity
 @Table(name = "owners")
 public class Owner extends Person {
+
+	/**bala vlanaahas
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
 
 	@Column(name = "address")
 	@NotEmpty
